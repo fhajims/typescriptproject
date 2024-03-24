@@ -12,11 +12,11 @@
     "run-populate-db-script": "node dist/models/populate-db.js",
     "delete-db": "npm-run-all clean build run-delete-db-script",
     "run-delete-db-script": "node dist/models/delete-db.js"
-
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.1",
     "reflect-metadata": "^0.2.1",

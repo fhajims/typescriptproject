@@ -32,5 +32,5 @@ deleteDb()
         process.exit(0);
     }) 
     .catch(err => {
-        console.error(`Error deletint dartabase`, err);
+        console.error(`Error deleting database`, err);
     });
