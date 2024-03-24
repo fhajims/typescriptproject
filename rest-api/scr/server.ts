@@ -9,7 +9,7 @@ if (result.error) {
 
 console.log(process.env.PORT)
 
-
+import "reflect-metadata";
 import * as express from 'express';
 import { root } from './routes/root';
 import { isInteger } from './utils';
